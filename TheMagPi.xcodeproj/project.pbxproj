@@ -22,6 +22,10 @@
 		7E8E58DA1885CB5E0081A55C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8E58B91885CB5E0081A55C /* UIKit.framework */; };
 		7E8E58E21885CB5E0081A55C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E58E01885CB5E0081A55C /* InfoPlist.strings */; };
 		7E8E58E41885CB5E0081A55C /* TheMagPiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E58E31885CB5E0081A55C /* TheMagPiTests.m */; };
+		7E8E58F51885CB9F0081A55C /* AsyncHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E58EE1885CB9F0081A55C /* AsyncHTTPClient.m */; };
+		7E8E58F61885CB9F0081A55C /* Issue.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E58F01885CB9F0081A55C /* Issue.m */; };
+		7E8E58F71885CB9F0081A55C /* MagPiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E58F21885CB9F0081A55C /* MagPiClient.m */; };
+		7E8E58F81885CB9F0081A55C /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E58F41885CB9F0081A55C /* News.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,14 @@
 		7E8E58DF1885CB5E0081A55C /* TheMagPiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheMagPiTests-Info.plist"; sourceTree = "<group>"; };
 		7E8E58E11885CB5E0081A55C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7E8E58E31885CB5E0081A55C /* TheMagPiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheMagPiTests.m; sourceTree = "<group>"; };
+		7E8E58ED1885CB9F0081A55C /* AsyncHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncHTTPClient.h; sourceTree = "<group>"; };
+		7E8E58EE1885CB9F0081A55C /* AsyncHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncHTTPClient.m; sourceTree = "<group>"; };
+		7E8E58EF1885CB9F0081A55C /* Issue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Issue.h; sourceTree = "<group>"; };
+		7E8E58F01885CB9F0081A55C /* Issue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Issue.m; sourceTree = "<group>"; };
+		7E8E58F11885CB9F0081A55C /* MagPiClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagPiClient.h; sourceTree = "<group>"; };
+		7E8E58F21885CB9F0081A55C /* MagPiClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagPiClient.m; sourceTree = "<group>"; };
+		7E8E58F31885CB9F0081A55C /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		7E8E58F41885CB9F0081A55C /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +126,14 @@
 		7E8E58BB1885CB5E0081A55C /* TheMagPi */ = {
 			isa = PBXGroup;
 			children = (
+				7E8E58ED1885CB9F0081A55C /* AsyncHTTPClient.h */,
+				7E8E58EE1885CB9F0081A55C /* AsyncHTTPClient.m */,
+				7E8E58EF1885CB9F0081A55C /* Issue.h */,
+				7E8E58F01885CB9F0081A55C /* Issue.m */,
+				7E8E58F11885CB9F0081A55C /* MagPiClient.h */,
+				7E8E58F21885CB9F0081A55C /* MagPiClient.m */,
+				7E8E58F31885CB9F0081A55C /* News.h */,
+				7E8E58F41885CB9F0081A55C /* News.m */,
 				7E8E58C41885CB5E0081A55C /* MagPiAppDelegate.h */,
 				7E8E58C51885CB5E0081A55C /* MagPiAppDelegate.m */,
 				7E8E58C71885CB5E0081A55C /* Main_iPhone.storyboard */,
@@ -255,6 +275,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E8E58CF1885CB5E0081A55C /* MagPiViewController.m in Sources */,
+				7E8E58F81885CB9F0081A55C /* News.m in Sources */,
+				7E8E58F51885CB9F0081A55C /* AsyncHTTPClient.m in Sources */,
+				7E8E58F61885CB9F0081A55C /* Issue.m in Sources */,
+				7E8E58F71885CB9F0081A55C /* MagPiClient.m in Sources */,
 				7E8E58C21885CB5E0081A55C /* main.m in Sources */,
 				7E8E58C61885CB5E0081A55C /* MagPiAppDelegate.m in Sources */,
 			);
